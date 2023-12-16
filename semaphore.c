@@ -4,7 +4,7 @@
 #include <semaphore.h> 
 #include <unistd.h> 
 sem_t mutex; 
-void* thread(void* arg) 
+void thread(void arg) 
 { 
     //wait 
     sem_wait(&mutex); 
