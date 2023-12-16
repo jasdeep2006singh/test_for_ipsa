@@ -12,13 +12,13 @@ int main() {
 }
 int task1(void)
 {
-    print("task1 \n");
+    printf("task1 \n");
 }
 int task2(void)
 {
-    print("task2 \n");
+    printf("task2 \n");
 }
 int task3(void)
 {
-    print("task3 \n");
+    printf("task3 \n");
 }
