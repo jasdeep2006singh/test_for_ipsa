@@ -1,11 +1,12 @@
 #include <stdio.h>
+#include <stdbool.h>
 #include <time.h>
 int task1(void);
 int task2(void);
 int task3(void);
 bool release(void)
 {
-   clock_t start_t, end_t;
+   clock_t start_t, end_t,total_t;
    start_t = clock();
    while(1){
      end_t = clock();
@@ -19,17 +20,18 @@ int main() {
   int i=0;
    while(1)
    {
-     if (release()=1 && i=0){
+     if (release()==1 && i==0){
         task1();
-       i=i+1
+       i=i+1;
      }
-     if(release()=1 && i=1){
+     if(release()==1 && i==1){
         task2();
-       i=i+1
+       i=i+1;
          }
-      if(release()=1 && i=2){
+      if(release()==1 && i==2){
         task3();
         i=0;
+      }
    }
 }
 int task1(void)
