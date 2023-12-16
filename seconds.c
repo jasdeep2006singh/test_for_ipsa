@@ -7,7 +7,7 @@ int main(){
         end_t = clock();
         total_t = (double)(end_t - start_t) / CLOCKS_PER_SEC;
          if (total_t==1){
-            print("%d\n",total_t);
+            printf("%d\n",total_t);
             total_t=0;
             start_t = clock();
         }
