@@ -1,7 +1,7 @@
 c#include<stdio.h>
 int main()
 {
-    int list[]={2,34,12,55,69,1,10,22,45,36,99,13,56};
+    int list[13]={2,34,12,55,69,1,10,22,45,36,99,13,56};
     int serach_n=45;
     for(int i=0; i<sizeof(list);i++)
     {
