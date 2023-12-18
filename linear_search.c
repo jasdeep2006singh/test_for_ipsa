@@ -1,4 +1,4 @@
-c#include<stdio.h>
+#include<stdio.h>
 int main()
 {
     int list[13]={2,34,12,55,69,1,10,22,45,36,99,13,56};
